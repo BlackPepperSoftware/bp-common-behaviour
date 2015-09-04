@@ -12,6 +12,7 @@
 	<artifactId>bp-common-behaviour-jquery</artifactId>
 
 	<name>Black Pepper Common Behaviour jQuery</name>
+	<description>JavaScript behaviours that use jQuery.</description>
 	
 	<dependencies>
 		
