@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<parent>
+		<groupId>uk.co.blackpepper</groupId>
+		<artifactId>bp-parent</artifactId>
+		<version>1.0.2</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>uk.co.blackpepper.common</groupId>
+	<artifactId>bp-common-behaviour-parent</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0.1-SNAPSHOT</version>
+
+	<name>Black Pepper Common Behaviour Parent</name>
+	
+	<scm>
+		<connection>scm:git:git@codebasehq.com:blackpepper/black-pepper-common/bp-common-behaviour.git</connection>
+		<developerConnection>scm:git:git@codebasehq.com:blackpepper/black-pepper-common/bp-common-behaviour.git</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://blackpepper.codebasehq.com/projects/black-pepper-common/repositories/bp-common-behaviour</url>
+	</scm>
+	
+	<dependencyManagement>
+	
+		<dependencies>
+			
+			<!-- jQuery -->
+			
+			<dependency>
+				<groupId>org.webjars</groupId>
+				<artifactId>jquery</artifactId>
+				<version>2.1.1</version>
+			</dependency>
+			
+		</dependencies>
+	
+	</dependencyManagement>
+
+	<modules>
+		<module>jquery</module>
+	</modules>
+	
+</project>
