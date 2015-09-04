@@ -17,10 +17,10 @@
 	<name>Black Pepper Common Behaviour Parent</name>
 	
 	<scm>
-		<connection>scm:git:git@codebasehq.com:blackpepper/black-pepper-common/bp-common-behaviour.git</connection>
-		<developerConnection>scm:git:git@codebasehq.com:blackpepper/black-pepper-common/bp-common-behaviour.git</developerConnection>
+		<connection>scm:git:git@github.com:BlackPepperSoftware/bp-common-behaviour.git</connection>
+		<developerConnection>scm:git:git@github.com:BlackPepperSoftware/bp-common-behaviour.git</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://blackpepper.codebasehq.com/projects/black-pepper-common/repositories/bp-common-behaviour</url>
+		<url>https://github.com/BlackPepperSoftware/bp-common-behaviour</url>
 	</scm>
 	
 	<dependencyManagement>
